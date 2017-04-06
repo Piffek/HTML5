@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang='pl'>
+<head>
+	<meta charset="UTF-8">
+	<title>My Page</title>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<meta name="keywords" content="Patryk, Piwko">
+	<link rel="stylesheet" href="OnePage/OnePage/public/css/style.css">
+	<script type="text/javascript" src="OnePage/OnePage/public/js/data.js"></script>
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+	<!-- [if lt IE 9]>
+	<script>https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js</script>
+	<![endif]-->
+</head>
+<body>
+	<a name="gora"></a>
+	<aside>
+		<nav>
+			<div class="menuLeft">
+				<ul class="menuRight">
+					<li><a class='menuTop' href="#gora">Do gory</a></li>
+					<li><a class='menuTop' href="#obiektowe">Obiektowe</a></li>
+					<li><a class='menuTop' href="#strukturalne">Strykturalne</a></li>
+					<li><a class='menuTop' href="#proceduralne">Proceduralne</a></li>
+				</ul>
+				<div id="menuTopBottom">
+					<div id="textFont">
+						Wyszukaj Swój język programowania
+					</div>
+					<div id="ajax">
+						<form id="search">
+							<input type='text' onkeyup="show(this.value)"  placeholder="Wpisz język">
+						</form>
+						<p><span id="art"></span></p>
+					</div>
+					<button>GitHub</button>
+					<div id="by">
+						Theme by Patryk Piwko
+					</div>
+				</div>
+			</div>	
+		</nav>
+	</aside>
+	<article>
+		<article class="art">
+			<a name="obiektowe"></a>
+			<h1>Programowanie obiektowe</h1>
+			<p>Programowanie obiektowe (ang. object-oriented programming) – paradygmat programowania, w którym programy definiuje się za pomocą obiektów – elementów łączących stan (czyli dane, nazywane najczęściej polami) i zachowanie (czyli procedury, tu: metody). Obiektowy program komputerowy wyrażony jest jako zbiór takich obiektów, komunikujących się pomiędzy sobą w celu wykonywania zadań.
+Podejście to różni się od tradycyjnego programowania proceduralnego, gdzie dane i procedury nie są ze sobą bezpośrednio związane. Programowanie obiektowe ma ułatwić pisanie, konserwację i wielokrotne użycie programów lub ich fragmentów.
+Największym atutem programowania, projektowania oraz analizy obiektowej jest zgodność takiego podejścia z rzeczywistością – mózg ludzki jest w naturalny sposób najlepiej przystosowany do takiego podejścia przy przetwarzaniu informacji.</p>
+		</article>
+		<article class="art">
+			<a name="strukturalne"></a>
+			<h1>Strukturalne</h1>
+			<p>Programowanie strukturalne – paradygmat programowania opierający się na podziale kodu źródłowego programu na procedury i hierarchicznie ułożone bloki z wykorzystaniem struktur kontrolnych w postaci instrukcji wyboru i pętli. Rozwijał się w opozycji do programowania wykorzystującego proste instrukcje warunkowe i skoki. Programowanie strukturalne zwiększa czytelność i ułatwia analizę programów, co stanowi znaczącą poprawę w stosunku do trudnego w utrzymaniu „spaghetti code” często wynikającego z użycia instrukcji goto.
+Początki programowania strukturalnego przypadają na Lata 60. XX wieku, a ważnym głosem w dyskusji o programowaniu strukturalnym był list Edsgera Dijkstry Goto Statement considered harmful.
+Język programowania zgodny z paradygmatem programowania strukturalnego nazywa się językiem strukturalnym.</p>
+		</article>
+		<article class="art">
+			<a name="proceduralne"></a>
+			<h1>Proceduralne</h1>
+			<p>Programowanie proceduralne – paradygmat programowania zalecający dzielenie kodu na procedury, czyli fragmenty wykonujące ściśle określone operacje. Procedury nie powinny korzystać ze zmiennych globalnych (w miarę możliwości), lecz pobierać i przekazywać wszystkie dane (czy też wskaźniki do nich) jako parametry wywołania.</p>
+		</article>
+	</article>
+</body>
+</html>
