@@ -9,7 +9,7 @@ function show(str) {
                 document.getElementById("art").innerHTML = this.responseText;
             }
         };
-        xmlhttp.open("GET", "/show/index/name/"+str, true);
+        xmlhttp.open("GET", "getdb.php/?name="+str, true);
         xmlhttp.send();
         console.log(str.length);
     }
