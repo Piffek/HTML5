@@ -4,6 +4,10 @@
 	margin:0;
 	padding:0;
 }
+article
+{
+	margin-top:3%;
+}
 
 body
 {
@@ -13,7 +17,6 @@ body
 
 .art
 {
-	margin-right:100px;
 	width:50vw;
 	float:right;
 	height:100vh;
@@ -34,6 +37,7 @@ body
 	padding: 50px;
 }
 
+
 header h2
 {
 	text-align:center;
@@ -42,10 +46,12 @@ header h2
 	padding-top:20px;
 }
 
+
 #search
 {
-	float:left;
-	margin-left:10px;
+	display:block;
+	margin-left:41%;
+	margin-top:20px;
 }
 
 #art
@@ -55,22 +61,26 @@ header h2
 
 .menuRight
 {
-	margin-left:100px;
-    margin-top: 5% !important;
-    position: fixed;
-    top: 0;
     z-index: 10000;
+    position:fixed;
+    margin-left:8%
 }
 
 .menuLeft
 {
-	width:40%;
+	width:50vw;
     margin-top:5% !important;
     position: fixed;
     top: 0;
     z-index: 10000;
     height:100vh;
-    background-color:white;
+    background-color:transparent;
+}
+
+#topMenu700
+{
+	height:100%;
+	position:aboslute;
 }
 
 .menuRight li
@@ -101,19 +111,6 @@ header h2
 	color:black;
 	margin-top:-50;
 }
-#ajax
-{
-	float:center;
-	display:block;
-	margin-top:10%;
-	padding:30%;
-	margin-left:70px;
-}
-
-button
-{
-	margin-left:100px;
-}
 
 #art
 {
@@ -122,28 +119,24 @@ button
 
 #textFont
 {
-	position:absolute;
+	margin-top:100px;
 	color:black;
 	font-size:40px;
 	text-align:center;
-	margin-top:20px;
-	margin-left:100px;
 }
 
 #art p
 {
-	position:absolute;
 	color:black;
-	font-size:50px;
+	font-size:40px;
 	text-align:center;
-	margin-bottom:10px;	
 }
 
 #by
 {
-	margin-left:100px;
+	text-align:center;
 	font-size:12px;
-	margin-top:10px;
+	margin-top:40%;
 }
 
 
@@ -227,7 +220,7 @@ header h2
 	text-decoration:none;
 	color:black;
 }
-#ajax
+#topMenu700
 {
 	display:none;
 }
@@ -287,11 +280,11 @@ header h2
 
 article
 {
-	margin-top:14%;
+	margin-top:40%;
 }
 
 
-#menuTopBottom
+#topMenu700
 {
 	display:none;
 }
